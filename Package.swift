@@ -13,7 +13,6 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/dji-sdk/Mobile-SDK-iOS", .branch("master")),
     ],
     targets: [
         .target(
@@ -22,5 +21,10 @@ let package = Package(
         .testTarget(
             name: "SiteScanSwiftPackageTests",
             dependencies: ["SiteScanSwiftPackage"]),
+        .binaryTarget(
+           name: "DJISDK",
+           url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.1.1/DJISDK.xcframework.zip",
+           checksum: "1b5fd3feb77b699e2eb8b091e0506872c236c0a10ffa4c229e2972575ec3ebdc"
+        )
     ]
 )
