@@ -20,10 +20,10 @@ let package = Package(
             dependencies: ["DJISDK"]),
         .testTarget(
             name: "SiteScanSwiftPackageTests",
-            dependencies: ["SiteScanSwiftPackage"]),
+            dependencies: ["SiteScanSwiftPackage", "DJISDK"]),
         .binaryTarget(
            name: "DJISDK",
-           url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.1.1/DJISDK.xcframework.zip",
+           url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.1.2/DJISDK.xcframework.zip",
            checksum: "1b5fd3feb77b699e2eb8b091e0506872c236c0a10ffa4c229e2972575ec3ebdc"
         )
     ]
