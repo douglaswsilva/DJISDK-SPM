@@ -26,15 +26,15 @@ let package = Package(
                     "GCDWebServers",
                     "MFiAdapter",
                     "MediaBase",
-                    "YuneecCameraSDK",
-                    "YuneecDataTransferManager",
-                    "YuneecDecoder",
-                    "YuneecMFiDataTransfer",
-                    "YuneecMediaPlayer",
+//                     "YuneecCameraSDK",
+//                     "YuneecDataTransferManager",
+//                     "YuneecDecoder",
+//                     "YuneecMFiDataTransfer",
+//                     "YuneecMediaPlayer",
 //                     "YuneecPreviewView",
-                    "YuneecRemoteControllerSDK",
-                    "YuneecWifiDataTransfer",
-                    "ZipUtilities"
+//                     "YuneecRemoteControllerSDK",
+//                     "YuneecWifiDataTransfer",
+//                     "ZipUtilities"
                  ]
         )
     ],
