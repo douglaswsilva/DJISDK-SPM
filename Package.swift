@@ -31,7 +31,7 @@ let package = Package(
                     "YuneecDecoder",
                     "YuneecMFiDataTransfer",
                     "YuneecMediaPlayer",
-                    "YuneecPreviewView",
+//                     "YuneecPreviewView",
                     "YuneecRemoteControllerSDK",
                     "YuneecWifiDataTransfer",
                     "ZipUtilities"
