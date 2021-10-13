@@ -12,7 +12,7 @@ let package = Package(
     products: [
         .library(name: "SiteScanDependencies",
                  targets: [
-                    "CocoaAsyncSocket",
+//                     "CocoaAsyncSocket",
                     "AFNetworking",
                     "ArcGIS",
                     "BaseFramework",
