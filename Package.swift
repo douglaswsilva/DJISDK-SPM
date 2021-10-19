@@ -29,7 +29,7 @@ let package = Package(
         )
     ],
 //    targets: [
-//        .binaryTarget(name: "AFNetworking", url: "https://site-scan-ios-dependencies.s3.us-west-1.amazonaws.com/AFNetworking/AFNetworking.xcframework.zip", checksum: "9f3cc2729b85d33b92e87f040061748d5fa04c085e2d0d44a281dd3e96ae0816"),
+//        ..binaryTarget(name: "AFNetworking", url: "https://site-scan-ios-dependencies.s3.us-west-1.amazonaws.com/AFNetworking/AFNetworking.xcframework.zip", checksum: "9f3cc2729b85d33b92e87f040061748d5fa04c085e2d0d44a281dd3e96ae0816"),
 //        .binaryTarget(name: "ArcGIS", url: "https://site-scan-ios-dependencies.s3.us-west-1.amazonaws.com/ArcGIS_100.12-3235/ArcGIS.xcframework.zip", checksum: "7ad4106e567e278ab99dab8c32759ba766e95a2cb8b4cc94c96e7e9ad3d4aee4"),
 //        .binaryTarget(name: "BaseFramework", url: "https://site-scan-ios-dependencies.s3.us-west-1.amazonaws.com/YuneecFrameworks/BaseFramework.xcframework.zip", checksum: "dc5530d6b7a0d9e0e9a7785bfa2f6d7509a1a95705ab9cb4287de52043358ad4"),
 //        .binaryTarget(name: "CocoaAsyncSocket", url: "https://site-scan-ios-dependencies.s3.us-west-1.amazonaws.com/CocoaAsyncSocket/CocoaAsyncSocket.xcframework.zip", checksum: "cb851a57a1ff80a06ad993c8c90f45f2bd3d48587cf48cc9575de661c639ba2a"),
