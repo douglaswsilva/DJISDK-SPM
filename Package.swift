@@ -54,6 +54,12 @@ let package = Package(
 //        .binaryTarget(name: "YuneecWifiDataTransfer", url: "https://site-scan-ios-dependencies.s3.us-west-1.amazonaws.com/YuneecFrameworks/YuneecWifiDataTransfer.xcframework.zip", checksum: "3827a67702e8978c627bf49b992e71015324e3a656911cbdca8411c943cf69f7"),
 //        .binaryTarget(name: "ZipUtilities", url: "https://site-scan-ios-dependencies.s3.us-west-1.amazonaws.com/ZipUtilities/ZipUtilities.xcframework.zip", checksum: "49e5bbc571ba9343e0e4eaefbaa3fa87f3ddab01c5a240d16ac8b5a1e8fbf1c1"),
 //    ]
+    
+    // 
+//Showing All Messages
+//checksum of downloaded artifact of binary target 'FFmpeg' (d8649d05ef8a3f4d94f47ae22e47a29a36454deb6d03889926ef0cf8213d4ad5) does not match checksum specified by the manifest (91c40bf8f20ac3f2b59ccdc522b122979c8925d923a43b26ca5832945b4cd0dd)
+
+
     targets: [
         .binaryTarget(name: "AFNetworking", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/AFNetworking.xcframework.zip", checksum: "37c1a2d97c3b2906eda636703bc6ea6c07df5e9d3b2793504f413f48e4c7f44f"),
         .binaryTarget(name: "ArcGIS", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/ArcGIS.xcframework.zip", checksum: "c51024922d1de350aa22a0e2a1d2a5dc1b8b6a472e903e5c4fec4b67a706b0ce"),
@@ -62,7 +68,7 @@ let package = Package(
         .binaryTarget(name: "CorePlot", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/CorePlot.xcframework.zip", checksum: "3ba293a608aeb6c3a15b677f36fd414e82460702fb1bac2208d9a574bd45d129"),
         .binaryTarget(name: "DJISDK", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/DJISDK.xcframework.zip", checksum: "e24b289b59430bf20ce33fb747d2fcd0768f99d46d94f5a3eddebe7e861c9def"),
         .binaryTarget(name: "DJIUXSDK", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/DJIUXSDK.xcframework.zip", checksum: "4633fcb237ac4bbbc6ca751a10c0b107209f3eddb853ed10c8791bce218ac0a7"),
-        .binaryTarget(name: "FFmpeg", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/FFmpeg.xcframework.zip", checksum: "d8649d05ef8a3f4d94f47ae22e47a29a36454deb6d03889926ef0cf8213d4ad5"),
+        .binaryTarget(name: "FFmpeg", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/FFmpeg.xcframework.zip", checksum: "91c40bf8f20ac3f2b59ccdc522b122979c8925d923a43b26ca5832945b4cd0dd"),
 //         .binaryTarget(name: "FFMpegDecoder", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/FFMpegDecoder.xcframework.zip", checksum: "5399c24deb29112ba1c5d01a80340db5bbdda8a8da7fa1895b8d3871e8b8df94"),
 //         .binaryTarget(name: "FFMpegDemuxer", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/FFMpegDemuxer.xcframework.zip", checksum: "e08d2966151d0f31b48198e80b70fa466a9af692d9a9243bf4a8bd41874766ec"),
 //         .binaryTarget(name: "FFMpegLowDelayDecoder", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/FFMpegLowDelayDecoder.xcframework.zip", checksum: "20dab018c15a4543a4012313498bf817eb53a50274b4674ac0c0d71f4634f443"),
