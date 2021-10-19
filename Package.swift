@@ -12,30 +12,18 @@ let package = Package(
     products: [
         .library(name: "SiteScanDependencies",
                  targets: [
-//                     "CocoaAsyncSocket",
                     "AFNetworking",
                     "ArcGIS",
                     "BaseFramework",
+                    "CocoaAsyncSocket",
                     "CorePlot",
                     "DJISDK",
                     "DJIUXSDK",
-                    "FFMpegDecoder",
-                    "FFMpegDemuxer",
-                    "FFMpegLowDelayDecoder",
-                    "FFMpegLowDelayDemuxer",
+                    "FFMpeg",
                     "opencv2",
                     "GCDWebServers",
-                    "MFiAdapter",
                     "MediaBase",
                     "Runtimecore",
-                    "YuneecCameraSDK",
-                    "YuneecDataTransferManager",
-                    "YuneecDecoder",
-                    "YuneecMFiDataTransfer",
-                    "YuneecMediaPlayer",
-                    "YuneecPreviewView",
-                    "YuneecRemoteControllerSDK",
-                    "YuneecWifiDataTransfer",
                     "ZipUtilities"
                  ]
         )
@@ -68,12 +56,13 @@ let package = Package(
 //    ]
     targets: [
         .binaryTarget(name: "AFNetworking", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/AFNetworking.xcframework.zip", checksum: "37c1a2d97c3b2906eda636703bc6ea6c07df5e9d3b2793504f413f48e4c7f44f"),
-        .binaryTarget(name: "ArcGIS", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/ArcGIS.xcframework.zip", checksum: "61e02c68a505915ac7a17224f8b2723997c96d70784b931c667d15b9bf398029"),
+        .binaryTarget(name: "ArcGIS", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/ArcGIS.xcframework.zip", checksum: "c51024922d1de350aa22a0e2a1d2a5dc1b8b6a472e903e5c4fec4b67a706b0ce"),
         .binaryTarget(name: "BaseFramework", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/BaseFramework.xcframework.zip", checksum: "6cf7743210c803bfe778da7bce446505ef1c53e22662542b79ba507b3ff8b0da"),
-//         .binaryTarget(name: "CocoaAsyncSocket", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/CocoaAsyncSocket.xcframework.zip", checksum: "dc307f9dcbe53acfbc90b3da7e21391634e1cee0a0dfcf2fe3e814857e4df153"),
+        .binaryTarget(name: "CocoaAsyncSocket", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/CocoaAsyncSocket.xcframework.zip", checksum: "dc307f9dcbe53acfbc90b3da7e21391634e1cee0a0dfcf2fe3e814857e4df153"),
         .binaryTarget(name: "CorePlot", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/CorePlot.xcframework.zip", checksum: "3ba293a608aeb6c3a15b677f36fd414e82460702fb1bac2208d9a574bd45d129"),
         .binaryTarget(name: "DJISDK", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/DJISDK.xcframework.zip", checksum: "e24b289b59430bf20ce33fb747d2fcd0768f99d46d94f5a3eddebe7e861c9def"),
         .binaryTarget(name: "DJIUXSDK", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/DJIUXSDK.xcframework.zip", checksum: "4633fcb237ac4bbbc6ca751a10c0b107209f3eddb853ed10c8791bce218ac0a7"),
+        .binaryTarget(name: "FFMpeg", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/FFMpeg.xcframework.zip", checksum: "91c40bf8f20ac3f2b59ccdc522b122979c8925d923a43b26ca5832945b4cd0dd"),
         .binaryTarget(name: "FFMpegDecoder", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/FFMpegDecoder.xcframework.zip", checksum: "5399c24deb29112ba1c5d01a80340db5bbdda8a8da7fa1895b8d3871e8b8df94"),
         .binaryTarget(name: "FFMpegDemuxer", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/FFMpegDemuxer.xcframework.zip", checksum: "e08d2966151d0f31b48198e80b70fa466a9af692d9a9243bf4a8bd41874766ec"),
         .binaryTarget(name: "FFMpegLowDelayDecoder", url: "https://github.com/douglaswsilva/DJISDK-SPM/releases/download/0.2.0/FFMpegLowDelayDecoder.xcframework.zip", checksum: "20dab018c15a4543a4012313498bf817eb53a50274b4674ac0c0d71f4634f443"),
